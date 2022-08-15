@@ -14,5 +14,4 @@ jar {
     }
     from(configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it)})
     setDuplicatesStrategy(DuplicatesStrategy.EXCLUDE)
-//    exclude { it.file in configurations.runtimeClasspath.files }
 }

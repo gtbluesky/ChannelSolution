@@ -1,4 +1,4 @@
-package com.gtbluesky.writer
+package com.gtbluesky.channel.writer
 
 class MainClass {
     companion object {

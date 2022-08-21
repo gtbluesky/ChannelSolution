@@ -1,5 +1,6 @@
-package com.gtbluesky.writer
+package com.gtbluesky.channel.writer
 
+import com.gtbluesky.channel.util.ZipUtil
 import java.io.FileOutputStream
 import java.util.zip.ZipEntry
 import java.util.zip.ZipFile

@@ -1,4 +1,4 @@
-package com.gtbluesky.reader
+package com.gtbluesky.channel.reader
 
 import java.util.zip.ZipFile
 

@@ -10,7 +10,7 @@ java {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.gtbluesky.writer.MainClass'
+        attributes 'Main-Class': 'com.gtbluesky.channel.writer.MainClass'
     }
     from(configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it)})
     setDuplicatesStrategy(DuplicatesStrategy.EXCLUDE)

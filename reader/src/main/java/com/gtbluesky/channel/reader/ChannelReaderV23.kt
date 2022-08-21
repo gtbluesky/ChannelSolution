@@ -1,5 +1,6 @@
-package com.gtbluesky.reader
+package com.gtbluesky.channel.reader
 
+import com.gtbluesky.channel.util.ZipUtil
 import java.io.RandomAccessFile
 import java.nio.channels.FileChannel
 

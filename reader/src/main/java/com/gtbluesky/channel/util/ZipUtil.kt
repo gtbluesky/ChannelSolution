@@ -1,4 +1,4 @@
-package com.gtbluesky.writer
+package com.gtbluesky.channel.util
 
 import java.io.Closeable
 import java.io.IOException

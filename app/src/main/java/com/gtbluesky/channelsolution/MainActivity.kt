@@ -3,7 +3,7 @@ package com.gtbluesky.channelsolution
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.gtbluesky.reader.ChannelReaderV23
+import com.gtbluesky.channel.reader.ChannelReaderV23
 
 class MainActivity : AppCompatActivity() {
     companion object {
